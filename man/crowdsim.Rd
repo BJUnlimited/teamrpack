@@ -1,14 +1,19 @@
 \name{crowdsim}
 \alias{crowdsim}
+\alias{n}
+\alias{m}
+\alias{init_threshold}
+\alias{threshold}
+\alias{num_cheerstarter}
 \title{crowdsim}
 \description{Crowd simulator coded in Matlab.}
 \usage{crowdsim(n, m, init_threshold, threshold, num_cheerstarter)}
 \arguments{
-    \item{\code{n}}{Number of rows}
-    \item{\code{m}}{Number of columns}
-    \item{\code{init_threshold}}{Initial cheering threshold}
-    \item{\code{threshold}}{Absolute cheering threshold.}
-    \item{\code{num_cheerstarter}}{Number of cheer starters}
+    \item{n}{Number of rows}
+    \item{m}{Number of columns}
+    \item{init_threshold}{Initial cheering threshold}
+    \item{threshold}{Absolute cheering threshold.}
+    \item{num_cheerstarter}{Number of cheer starters}
 }
 \value{
 No value is returned.
